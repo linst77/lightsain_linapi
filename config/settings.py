@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-g$o-zhbndskn#t46-rzga$cb^x%d@%t&afniqyu_xwvij&k@g8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['43.200.105.124']
 
 
 # Application definition
@@ -97,29 +97,29 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-### AWS
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'admin',
-#         'USER': 'admin',
-#         'PASSWORD': 'admin1234',
-#         'HOST': 'linstapi-db.chjw2hu4wjwg.ap-northeast-2.rds.amazonaws.com',
-#         'PORT': '5432',
-#     }
-# }
-
-### local
+## AWS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test100',
-        'USER': 'postgres',
-        'PASSWORD': 'admin1234',
-        'HOST': 'localhost',
+        'NAME': 'dbmaster',
+        'USER': 'linstadmin',
+        'PASSWORD': 'linstadmin1234',
+        'HOST': 'ls-e796b56bf7812538b00f233e6c85e037aefafd96.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
+
+### localpython
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'test100',
+#         'USER': 'postgres',
+#         'PASSWORD': 'admin1234',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 

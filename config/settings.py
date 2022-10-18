@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-g$o-zhbndskn#t46-rzga$cb^x%d@%t&afniqyu_xwvij&k@g8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['43.200.105.124']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -104,7 +104,7 @@ DATABASES = {
         'NAME': 'dbmaster',
         'USER': 'linstadmin',
         'PASSWORD': 'linstadmin1234',
-        'HOST': 'ls-e796b56bf7812538b00f233e6c85e037aefafd96.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
+        'HOST': 'ls-cf87cb7737327a53caf48888f906a374aafc1ee2.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }

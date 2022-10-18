@@ -104,7 +104,7 @@ DATABASES = {
         'NAME': 'dbmaster',
         'USER': 'linstadmin',
         'PASSWORD': 'linstadmin1234',
-        'HOST': 'ls-cf87cb7737327a53caf48888f906a374aafc1ee2.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
+        'HOST': 'aals-cf87cb7737327a53caf48888f906a374aafc1ee2.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
